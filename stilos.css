@@ -1,0 +1,91 @@
+section{
+    height: 200px;
+}
+.logo{
+        background-image: url("El\ pastelero.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 200px;
+        }
+*{
+    font-family: Arial;
+}
+.menu{
+    background-color: #e4b9c64d;
+    height: 1500px;        
+            
+    }
+.encabezado{
+    background-color: rgb(250, 200, 237);
+    }
+body{
+    background-color: beige;
+    }
+.boton{
+    position: relative;
+    left: 600px;
+}
+.posicionmenu1{
+    position:relative;
+    left: 200px;
+    top: -100px;
+}
+.posicionmenu2{
+    position:relative;
+    left: 200px;
+    top: -100px;
+}
+.posicionmenu3{
+    position:relative;
+    left: 200px;
+    top: -100px;
+}
+.posicionmenu4{
+    position:relative;
+    left: 200px;
+    top: -100px;
+}
+.posicionmenu5{
+    position:relative;
+    left: 200px;
+    top: -100px;
+}
+.logoindividual{
+    
+    position: relative;
+    left: 600px;
+    top: 10px;
+}
+.logopequeño{
+    
+    position: relative;
+    left: 600px;
+    top: 10px;
+}
+.logomediano{
+    
+    position: relative;
+    left: 600px;
+    top: 10px;
+}
+.logogrande{
+    
+    position: relative;
+    left: 600px;
+    top: 10px;
+}
+.logodoble{
+    
+    position: relative;
+    left: 600px;
+    top: 10px;
+}
+img{
+    border-radius: 45px;
+    max-width: 200px;
+    max-height: 200px;
+}
+h2{
+    font-size:xx-large;
+}
+        

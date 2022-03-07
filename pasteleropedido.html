@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>El pastelero pedido</title>
+    <style>
+        h2{
+            color: brown;
+            text-align: left;
+        }
+        h1,h2,h3{
+            font-weight: bold;
+        }
+        body{
+            background-color: rgb(250, 200, 237);
+        }
+        img{
+            border-radius: 45px;
+            max-width: 200px;
+            max-height: 200px;
+        }
+        form{
+            position: absolute;
+            left: 200px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    
+    <form action="pedido.js">
+    <img src="El pastelero.png" alt="logo de la empresa">
+    <h1 >CREA TU PASTEL</h1>
+    <h2>SELECCIONA TAMAÑO</h2>
+    <input type="radio" name="tamaño" id="individual">
+    <label for="individual">INDIVIDUAL</label>
+    <input type="radio" name="tamaño" id="pequeño">
+    <label for="pequeño">PEQUEÑO</label>
+    <input type="radio" name="tamaño" id="mediano">
+    <label for="mediano">MEDIANO</label>
+    <input type="radio" name="tamaño" id="grande">
+    <label for="grande">GRANDE</label>
+    <input type="radio" name="tamaño" id="doble">
+    <label for="doble">DOBLE</label>
+    <br>
+    
+    <h2>PAN</h2>
+    <input type="radio" name="sabor" id="vainilla">
+    <label for="vainilla">VAINILLA</label>
+    <input type="radio" name="sabor" id="chocolate">
+    <label for="chocolate">CHOCOLATE</label>
+    <br>
+    
+    <h2>RELLENO</h2>
+    <input type="radio" name="relleno" id="sin relleno">
+    <label for="sin relleno">SIN RELLENO</label>
+    <input type="radio" name="relleno" id="chocolate">
+    <label for="chocolate">CHOCOLATE</label>
+    <input type="radio" name="relleno" id="cajeta">
+    <label for="cajeta">CAJETA</label>
+    <input type="radio" name="relleno" id="nutella">
+    <label for="nutella">NUTELLA</label>
+
+    <h2>TIPO DE PASTEL</h2>
+    <select name="opciones_pasteles" id="opciones_pasteles">
+        <option value="1">MOKA</option>
+        <option value="2">CAJETA</option>
+        <option value="3">TRES LECHES</option>
+        <option value="4">FRESA</option>
+        <option value="5">DURAZNO</option>
+        <option value="6">CHOCOLATE CON MENTA</option>
+        <option value="7">FRESAS CON CHOCOLATE</option>
+        <option value="8">FRUTOS ROJOS</option>
+    </select>
+
+    <h2>DISEÑO ESPECIAL</h2>
+    <h3>SI TIENE ALGUN DISEÑO ESPECIAL FAVOR DE SUBIR IMAGEN</h3>
+    <input type="file" name="pastel" id="pastel" value="MODELO">
+
+    <br>
+    <br>
+    <input type="reset" value="BORRAR">
+    <input type="submit" value="ENVIAR">
+    </form>
+
+</body>
+</html>
